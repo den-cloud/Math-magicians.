@@ -1,28 +1,20 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import React, { Component } from 'react';
 import Calculator from './components/Calculator';
-import Home from './components/Home';
-import Quote from './components/Quote';
-
 import './css/App.css';
 
-const App = () => (
-  <Router>
-    <Navbar />
-    <main className="container">
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/Calculator">
-          <Calculator />
-        </Route>
-        <Route path="/Quote">
-          <Quote />
-        </Route>
-      </Switch>
-    </main>
-  </Router>
-);
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <main className="container">
+        <Calculator />
+      </main>
+    );
+  }
+}
 
 export default App;
