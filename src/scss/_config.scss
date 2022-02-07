@@ -1,0 +1,15 @@
+$text-color: #272727;
+$primary-color: #fff;
+$secondary-color: orange;
+$background-color: rgba(221, 219, 219, 0.952);
+$font-stack: 'Montserrat', serif;
+$border: 3px solid $primary-color;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Quantico', cursive;
+  // font-family: 'Henny Penny', cursive;
+}
