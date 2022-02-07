@@ -1,5 +1,6 @@
 {
     "extends": ["stylelint-config-standard"],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
     "rules": {
       "at-rule-no-unknown": null,
