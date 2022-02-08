@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: "Quantico", cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  background-color: black;
+  background-color: grey;
   width: 100%;
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid greenyellow;
 }
 
 header .navbar {
@@ -28,12 +30,12 @@ h1 {
   color: #fff;
   line-height: 80px;
   text-align: center;
-  font-family: "Henny Penny", cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 span {
-  color: orange;
-  font-family: "Henny Penny", cursive;
+  color: greenyellow;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .nav-item {
@@ -48,7 +50,7 @@ h1 span {
 }
 
 .nav-item .nav-item-link:hover {
-  color: orange;
+  color: greenyellow;
 }
 
 .second-title {
@@ -58,7 +60,7 @@ h1 span {
 }
 
 .second-title span {
-  color: orange;
+  color: greenyellow;
 }
 
 .quote-section {
@@ -74,7 +76,7 @@ h1 span {
   font-weight: 700;
   line-height: 2.8rem;
   letter-spacing: 1.8px;
-  font-family: "Henny Penny", cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section .home-section {
@@ -102,7 +104,7 @@ button.btn-more {
   border: none;
   outline: none;
   border-radius: 8px;
-  background-color: orange;
+  background-color: greenyellow;
   padding: 8px 16px;
   float: right;
   margin-right: 3rem;
@@ -154,7 +156,7 @@ main .section {
 
 main .section h2 {
   font-size: 2rem;
-  font-family: "Henny Penny", cursive;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 4px;
   margin-bottom: 1rem;
 }
