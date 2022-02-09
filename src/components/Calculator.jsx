@@ -1,26 +1,26 @@
-// import React, { useState } from 'react';
-// import calculate from '../logic/calculate';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 
-// const Calculator = () => {
-//   const [state, setState] = useState({
-//     total: 0,
-//     next: '',
-//     operation: '',
-//   });
+const Calculator = () => {
+  const [state, setState] = useState({
+    total: 0,
+    next: '',
+    operation: '',
+  });
 
-//   const keyBtns = [
-//     ['AC', '+/-', '%', '÷'],
-//     ['7', '8', '9', 'x'],
-//     ['4', '5', '6', '-'],
-//     ['1', '2', '3', '+'],
-//     ['0', '.', '='],
-//   ];
+  const keyBtns = [
+    ['AC', '+/-', '%', '÷'],
+    ['7', '8', '9', 'x'],
+    ['4', '5', '6', '-'],
+    ['1', '2', '3', '+'],
+    ['0', '.', '='],
+  ];
 
-//   //  handleKeyPress = (event) => this.setState((obj) => calculate(obj, event.target.textContent));
-//   const handleKeyPress = (event) => {
-//     const calculator = calculate(state, event.target.textContent);
-//     setState({ ...state, ...calculator });
-//   };
+  //  handleKeyPress = (event) => this.setState((obj) => calculate(obj, event.target.textContent));
+  const handleKeyPress = (event) => {
+    const calculator = calculate(state, event.target.textContent);
+    setState({ ...state, ...calculator });
+  };
 
 //   return (
 //     <div className=" section flex-center">
