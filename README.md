@@ -3,6 +3,17 @@
 
 # Math magicians
 
+### Learning objectives
+
+- Set up a React app.
+- Use React documentation.
+- Use React components.
+- Use React props.
+- Use React state.
+- Handle events in a React app.
+- Use React life cycle methods.
+- Understand the mechanism of lifting state up.
+
 ## Description
 - Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
   - Make simple calculations.
@@ -37,7 +48,7 @@
 ### Built With
 
 Runs the app in the development mode.\
-Open [http://localhost:3000/](http://localhost:3000/) to view it in the browser.
+Open [http://localhost:3000/](http://localhost:3000) to view it in the browser.
 This project is build with:
 
 The page will reload if you make edits.\
@@ -48,12 +59,6 @@ You will also see any lint errors in the console.
 
 ## Live Demo Links
 
-### [Github Pages](https://inspiring-noyce-cafdc0.netlify.app)
-
-### [Heroku](https://benmukeb-math-magicians.herokuapp.com/)
-
-### [Netlify](https://benmukebo-math-magicians.netlify.app)
-
 ## Getting Started
 
 ### Clone this repository
@@ -61,7 +66,7 @@ You will also see any lint errors in the console.
 - To get the content of this project locally you need to run this command in your terminal:
 
 ```bash
-$ git clone https://github.com/BenMukebo/Math-magicians.git
+$ https://github.com/den-cloud/Math-magicians.git
 $ cd Math-magicians
 ```
 ### Run project
@@ -143,15 +148,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Author
 
-👤 **Ben Mukebo**
+👤 **Denzel Nkomo**
 
-- GitHub: [@BenMukebo](https://github.com/BenMukebo)
-- Twitter [@BenMukebo](https://twitter.com/BenMukebo)
-- LinkedIn [BenMukebo](https://www.linkedin.com/in/kasongo-mukebo-ben-591720205/)
-
+- GitHub: [@Denzel Nkomo](https://github.com/den-cloud)
+- Twitter: [@Denzel Nkomo](https://twitter.com/nkomo_dt)
+- LinkedIn: [@Denzel Nkomo](https://www.linkedin.com/in/denzel-thandolwenkosi-nkomo-a424aa177/)
 ## :handshake: Contributing
 
-Feel free to check the [issues page](https://github.com/BenMukebo/Math-magicians/issues)
+Feel free to check the [issues page](https://github.com/den-cloud/JS-CAPSTONE-PROJECT/issues).
+
 
 Give a :star: if you like this project! ❤️❤️❤️
 
